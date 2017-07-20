@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     @Override
-    public void onAttachFragment(Fragment fragment) {   //Fragment ın activity ye eklenmek istediği zaman çağrılır.
+    public void onAttachFragment(Fragment fragment) {   // ( ÇALIŞMADI ) Fragment ın activity ye eklenmek istediği zaman çağrılır.
         super.onAttachFragment(fragment);
         Log.e(MAIN_TAG,"onAttachFragment");
     }
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {         //Sistem içerisinde veri alışverişi veya mesaj gönder/al yapılmak için çağrılır.
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {         // ( ÇALIŞMADI )  Sistem içerisinde veri alışverişi veya mesaj gönder/al yapılmak için çağrılır.
         super.onActivityResult(requestCode, resultCode, data);
         Log.e(MAIN_TAG,"onActivityResult");
     }
